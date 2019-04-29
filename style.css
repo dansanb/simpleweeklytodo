@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #f6e2ff;
+    font-size: 18px;
+    color: #5f2b75;    
+}
+h1 {
+    text-transform: uppercase;    
+}
+.day-container {
+    margin: 20px 5px;
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+
+}
+
+h2 {
+    width: 100%;
+    text-transform: uppercase;
+    border-bottom: 4px solid #8d4da8;
+    font-weight: bold;
+}
+
+ul {    
+    padding-left: 20px;
+}
+
+li {
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 5px 0;    
+    word-wrap: break-word;
+}
+
+.todo-done {
+    text-decoration: line-through;
+    color: #888;
+}
